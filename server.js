@@ -86,7 +86,7 @@ if (ENV === 'development') {
 }
 
 // mongoose
-mongoose.connect('mongodb://localhost/WallApp', function(err) {
+mongoose.connect('mongodb://heroku_app37347980:tv5r50e7bvedsjuetpovgtr5kp@ds041432.mongolab.com:41432/heroku_app37347980', function(err) {
   if (err) {
     err.message = 'Failed to connect to MongoDB database \n' + err.message;
     die(err);
